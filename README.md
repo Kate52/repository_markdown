@@ -27,3 +27,11 @@ A footnote can also have multiple lines[^2].
 
 > [!CAUTION]
 > Negative potential consequences of an action.
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
