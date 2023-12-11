@@ -21,7 +21,7 @@ sequenceDiagram
       { "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [102.0, 0.5]
+          "coordinates": [402.0, 0.5]
           },
           "properties": {
             "prop0": "value0"
