@@ -13,3 +13,31 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
+
+
+```geojson 
+{ 
+  "type": "FeatureCollection", 
+  "features": [ 
+    { 
+      "type": "Feature", 
+      "id": 1, 
+      "properties": { 
+        "ID": 0 
+      }, 
+      "geometry": { 
+        "тип": "Многоугольник", 
+        "координаты": [ 
+          [ 
+              [-90,35], 
+              [-90,30], 
+              [-85,30], 
+              [-85,35], 
+              [-90,35] 
+          ] 
+        ] 
+      } 
+    } 
+  ] 
+} 
+```
