@@ -1,3 +1,5 @@
+Диаграмма последовательностй:
+
 ```mermaid
 sequenceDiagram
     participant Alice
