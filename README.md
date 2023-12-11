@@ -30,3 +30,7 @@ solid cube_corner
   endfacet
 endsolid
 ```
+```python
+a = 2
+b = 3
+print(a+b)
