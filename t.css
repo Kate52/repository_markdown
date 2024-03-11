@@ -1,3 +1,7 @@
+html {
+    --core-header-toolbar-background: red;
+}
+
 .core-horizontal-scroll[_nghost-ng-c1908234696] ion-card.core-course-list-card[_ngcontent-ng-c1908234696] .core-course-thumb[_ngcontent-ng-c1908234696], .core-horizontal-scroll [_nghost-ng-c1908234696] ion-card.core-course-list-card[_ngcontent-ng-c1908234696] .core-course-thumb[_ngcontent-ng-c1908234696] {
 padding-top:0%;
 }
