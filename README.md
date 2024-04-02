@@ -35,8 +35,12 @@ function doSomething() {
 - [ ] incomplete task
 - [x] completed task
 
-```plantuml
+# Examples
 
+Set `plantuml:{filename}` as a fence information. `filename` is used as the file name of generated diagrams. In the following case, `md-sample-sequence.svg` is created.
+`filename` is required.
+
+```plantuml:md-sample-sequence
 @startuml
 actor Foo123
 boundary Foo2
@@ -52,3 +56,4 @@ Foo1 -> Foo6 : To collections
 @enduml
 ```
 
+![](./md-sample-sequence.svg)
