@@ -35,18 +35,20 @@ function doSomething() {
 - [ ] incomplete task
 - [x] completed task
 
-@startuml
-object Объект01
-object Объект02
-object Объект03
-object Объект04
-object Объект05
-object Объект06
-object Объект07
-object Объект08
+```plantuml
 
-Объект01 <|-- Объект02
-Объект03 *-- Объект04
-Объект05 "к одному" o-- "от многих" Объект06
-Объект07 .. Объект08 : некоторая заметка
+@startuml
+actor Foo123
+boundary Foo2
+control Foo3
+entity Foo4
+database Foo5
+collections Foo6
+Foo1 -> Foo2 : To boundary
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database
+Foo1 -> Foo6 : To collections
 @enduml
+```
+
