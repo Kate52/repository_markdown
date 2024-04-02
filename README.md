@@ -34,3 +34,8 @@ function doSomething() {
 
 - [ ] incomplete task
 - [x] completed task
+
+@startuml
+object первыйОбъект
+object "Второй объект" as o2
+@enduml
