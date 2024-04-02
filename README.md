@@ -36,6 +36,17 @@ function doSomething() {
 - [x] completed task
 
 @startuml
-object первыйОбъект
-object "Второй объект" as o2
+object Объект01
+object Объект02
+object Объект03
+object Объект04
+object Объект05
+object Объект06
+object Объект07
+object Объект08
+
+Объект01 <|-- Объект02
+Объект03 *-- Объект04
+Объект05 "к одному" o-- "от многих" Объект06
+Объект07 .. Объект08 : некоторая заметка
 @enduml
