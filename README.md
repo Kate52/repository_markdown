@@ -40,7 +40,7 @@ function doSomething() {
 Set `plantuml:{filename}` as a fence information. `filename` is used as the file name of generated diagrams. In the following case, `md-sample-sequence.svg` is created.
 `filename` is required.
 
-```plantuml:md-sample-sequence
+```plantuml
 @startuml firstDiagram
 
 Alice -> Bob: Hello
