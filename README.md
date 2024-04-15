@@ -1,9 +1,9 @@
 ## Заголовок 2 уровня
-```plantuml
+
 @startuml
 Bob -> Alice : hello
 @enduml
-```
+
 ![Description](http://plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80)
 
 Ненумерованный список
